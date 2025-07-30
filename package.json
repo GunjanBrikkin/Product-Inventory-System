@@ -1,0 +1,18 @@
+{
+  "name": "product-inventory",
+  "version": "1.0.0",
+  "description": "This is a product-inventory Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon app.js"
+  },
+  "author": "Gunjan Hirani",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.17.0"
+  }
+}
